@@ -20,10 +20,35 @@ form {
   width: 100%;
 }
 
-/* centrar post */
+/* estilos del post
+color de cabecera verde 
+texto cursiva
+centrado
+ */
+
 .post {
+
   margin: 0 auto;
   max-width: 600px;
   padding: 1em;
   width: 100%;
+}
+
+.post-header {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  text-align: center;
+}
+.post-content {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0 0 1em 0;
+}
+.post-footer {
+  color: #fff;
+  font-size: 0.9em;
+  margin: 0 0 1em 0;
+  text-align: left;
 }
