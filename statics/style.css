@@ -19,3 +19,11 @@ form {
   padding: 1em;
   width: 100%;
 }
+
+/* centrar post */
+.post {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1em;
+  width: 100%;
+}
