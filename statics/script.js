@@ -31,6 +31,8 @@ function drawLine(x1, y1, x2, y2, color){
   ctx.moveTo(x1, y1)
   ctx.lineTo(x2, y2)
   ctx.strokeStyle = color
+  // cambiar el grosor de linea
+  ctx.lineWidth =2
   ctx.stroke()
 }
 
