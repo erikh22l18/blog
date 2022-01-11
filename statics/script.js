@@ -89,3 +89,16 @@ var y3 = 400
 var color = 'green'
 drawTriangle(x1, y1, x2, y2, x3, y3, color)
 
+// dibujar un circulo en movimiento
+var x = 200
+var y = 100
+var r = 50
+var color = 'red'
+var i = 0
+setInterval(function(){
+  i++
+  drawCircle(x + i, y, r, color)
+}, 1000) // 1000 milisegundos = 1 segundo
+
+
+
