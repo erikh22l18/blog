@@ -4,7 +4,7 @@ var title = document.getElementById('title')
 var i = 1;
 setInterval(function(){
   i++
-  title.innerHTML = 'Hola mundo ' + i;
+  title.innerHTML = 'Adios mundo ' + i;
 }, 10000) // 5000 milisegundos = 5 segundos
 
 //cambiar el background cada 5 segundos
