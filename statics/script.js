@@ -90,7 +90,7 @@ var color = 'green'
 drawTriangle(x1, y1, x2, y2, x3, y3, color)
 
 // dibujar un circulo en movimiento
-var x = 200
+var x = 300
 var y = 100
 var r = 50
 var color = 'red'
